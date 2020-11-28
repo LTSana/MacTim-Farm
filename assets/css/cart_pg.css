@@ -1,0 +1,70 @@
+#hero_1 {
+  min-height: calc(100vh - 70px);
+}
+
+#total_price {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.div_overall_payment_checkout {
+  background: #000000;
+  color: rgb(190,190,190);
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.row.helpers-row {
+  margin-top: 10px;
+}
+
+#checkout-btn {
+  background: #777777;
+}
+
+.col_cart_quantity_holder {
+  margin-top: 20px;
+}
+
+.input_counter {
+  text-align: center;
+  width: 60px;
+  border-radius: 0px;
+  border-style: none;
+  border-bottom-style: solid;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.item_quantity_btn {
+  background: #000000;
+  border-bottom-color: rgb(130,130,130);
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.item_remove_btn {
+  color: rgb(129,129,129);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.item_remove_btn:hover {
+  color: rgb(100,100,100);
+  text-decoration: none;
+}
+
+.item_row {
+  border-bottom-style: solid;
+  border-bottom-color: rgb(122,122,122);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+

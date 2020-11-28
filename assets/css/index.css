@@ -1,0 +1,63 @@
+/* Hero 1 */
+
+/* Style Shop Items */
+
+.col_shop_item {
+  padding-top: 15px;
+  box-shadow: 0px 0px 5px rgb(200,200,200);
+  background: #f9f9f9;
+  border-radius: 9px;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.col_shop_item_link, .col_shop_item_link:hover {
+  text-decoration: none;
+}
+
+.col_shop_item_price {
+  margin-bottom: 0px;
+}
+
+.col_shop_item_by {
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.col_shop_item_title {
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+/* Style Select Region */
+
+@media (min-width: 576px) {
+  .col_region_selection {
+    background: #404040;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    color: rgb(255,255,255);
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .col_region_selection {
+    background: #404040;
+    /*border-top-right-radius: 9px;*/
+    /*border-bottom-right-radius: 9px;*/
+    color: rgb(255,255,255);
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+}
+
+#hero_1 {
+  min-height: calc(100vh - 70px);
+}
+
