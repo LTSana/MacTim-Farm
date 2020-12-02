@@ -27,6 +27,21 @@
   background: #777777;
 }
 
+.col_cart_items {
+  overflow-y: scroll;
+  height: 600px;
+  overflow-x: hidden;
+}
+
+.col_cart_items::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+.col_cart_items::-webkit-scrollbar {
+  background-color: #a6a6a6;
+  width: 5px;
+}
+
 .col_cart_quantity_holder {
   margin-top: 20px;
 }

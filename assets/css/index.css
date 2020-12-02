@@ -33,13 +33,16 @@
   font-weight: bold;
 }
 
+.item_img {
+  object-fit: cover;
+  max-height: 150px;
+}
+
 /* Style Select Region */
 
 @media (min-width: 576px) {
   .col_region_selection {
     background: #404040;
-    border-top-right-radius: 9px;
-    border-bottom-right-radius: 9px;
     color: rgb(255,255,255);
     padding-bottom: 15px;
     padding-top: 15px;
@@ -49,8 +52,6 @@
 @media (max-width: 575px) {
   .col_region_selection {
     background: #404040;
-    /*border-top-right-radius: 9px;*/
-    /*border-bottom-right-radius: 9px;*/
     color: rgb(255,255,255);
     padding-bottom: 15px;
     padding-top: 15px;
